@@ -5,7 +5,7 @@ import { useSearchParams } from 'react-router-dom'
 import ModalC from './ModalC'
 
 const Problem2 = () => {
-  const [show, setShow] = useState()
+  const [show, setShow] = useState(true)
   const [isEven, seIsEven] = useState(false)
   const [info, setInfo] = useState()
   const [searchParams, setSearchParams] = useSearchParams()
