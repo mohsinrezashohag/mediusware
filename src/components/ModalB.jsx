@@ -10,7 +10,9 @@ const ModalB = ({ show, setShow, setInfo }) => {
 
   // all contacts
   useEffect(() => {
-    fetch('https://contact.mediusware.com/api/contacts/')
+    fetch(
+      'https://contact.mediusware.com/api/country-contacts/united%20states/'
+    )
       .then((res) => res.json())
       .then((data) => setAllContacts(data.results))
   }, [])
