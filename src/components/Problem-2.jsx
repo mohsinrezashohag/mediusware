@@ -22,7 +22,7 @@ const Problem2 = () => {
             type='button'
             onClick={() => {
               setSearchParams({
-                modal: 'one',
+                modal: 'modalA',
               })
               setShow('ModalA')
             }}
@@ -35,7 +35,7 @@ const Problem2 = () => {
             style={{ background: '#ff7f50', color: '#000' }}
             onClick={() => {
               setSearchParams({
-                modal: 'two',
+                modal: 'ModalB',
               })
               setShow('ModalB')
             }}
